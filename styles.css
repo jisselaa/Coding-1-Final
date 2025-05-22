@@ -1,8 +1,6 @@
 
 body {
-  background-color: #f8f9fa;
-  font-family: 'Segoe UI', sans-serif;
-  color: #333;
+  background-color: #ffc9ea;
 }
 
 h5 {
@@ -16,11 +14,11 @@ a {
   transition: color 0.3s ease;
 }
 
-/* Class selectors */
-.card {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+.card{
+  box-shadow: 0 4px 12px rgba(180, 49, 49, 0.1);
   border-radius: 10px;
   margin-bottom: 20px;
+ 
 }
 
 .btn-primary {
@@ -33,4 +31,8 @@ footer {
   background-color: #f1f1f1;
   padding: 15px;
   font-size: 0.9rem;
+}
+.card-img-top{
+  max-height: 220px;
+    object-fit: cover;
 }
